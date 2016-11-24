@@ -28,3 +28,11 @@ testArray._forEach( item => {
   console.log(newArray);
   return newArray;
 });
+
+// Adding the #1 to each item
+testArray._forEach( item => {
+  let newArray = [];
+  newArray.push(item + 1);
+  console.log(newArray);
+  return newArray;
+});
