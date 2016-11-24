@@ -9,3 +9,8 @@ Array.prototype._forEach = function(callback) {
   }
   return this;
 };
+
+// Simply console logging the array
+testArray._forEach( item => {
+  console.log(item);
+});
