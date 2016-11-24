@@ -21,3 +21,10 @@ testArray._forEach( item => {
   console.log(newArray);
   return newArray;
 });
+
+// Splitting and reversing the array
+testArray._forEach( item => {
+  let newArray = item.split('').reverse();
+  console.log(newArray);
+  return newArray;
+});
