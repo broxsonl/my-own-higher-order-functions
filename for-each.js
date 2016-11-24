@@ -14,3 +14,10 @@ Array.prototype._forEach = function(callback) {
 testArray._forEach( item => {
   console.log(item);
 });
+
+// Splitting the array
+testArray._forEach( item => {
+  let newArray = item.split('');
+  console.log(newArray);
+  return newArray;
+});
